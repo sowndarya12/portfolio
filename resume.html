@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Session</title>
+    <meta charset="UTF-8" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+<style>
+#ex{
+background-image:url('https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/turner-36_s1-Full-Image_GalleryBackground-en-US-1557356293721._SX1080_.jpg')
+}
+</style>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      const rootElement = document.getElementById("root");
+      const element=(
+    
+      <div id="ex"style={{backgroundColor:"black",height:"600px",width:"1000px",marginLeft:"100px`",textAlign:"center",margin:"auto"}}>
+         <h1 style={{fontFamily:"Cursive",textAlign:"center",padding:"20px",margin:"auto",color:"blue"}}>Hello guys</h1>
+         <h1 style={{fontFamily:"Cursive",textAlign:"center",color:"blue"}}>Im Sowndarya</h1>
+    
+<div id="last">
+      <ul>
+	<form action="about.html">	
+	    <button style={{color:"black",padding:"20px",fontSize:"20px",width:"200px",height:"40px",textAlign:"center",marginTop:"150px",marginRight:"500px"}} text="submit">ABOUT</button></form>
+	<form action="skill.html">	
+	    <button style={{color:"black",padding:"20px",fontSize:"20px",width:"200px",height:"40px",textAlign:"center",marginRight:"500px"}} text="submit">SKILL</button></form>
+	<form action="project.html">	
+	    <button style={{color:"black",padding:"20px",fontSize:"20px",width:"200px",height:"40px",textAlign:"center",marginRight:"500px"}} text="submit">PROJECT</button></form>
+	<form action="contact.html">	
+	    <button style={{color:"black",padding:"20px",fontSize:"20px",width:"200px",height:"40px",textAlign:"center",marginRight:"500px"}} text="submit">CONTACT</button></form>
+	</ul>
+    
+    </div>
+     </div> );
+      ReactDOM.render(element,rootElement);
+	console.log(React);
+      console.log(ReactDOM);
+    </script>
+  </body>
+</html>
