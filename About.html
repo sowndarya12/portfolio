@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>portfolio</title>
+    <meta charset="UTF-8" />
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<style>
+#div1
+    {
+      font-family: cursive;
+      color:white;
+      background-image:url("https://st3.depositphotos.com/15208558/17559/i/1600/depositphotos_175591196-stock-photo-working-table-top-view-flat.jpg");
+      background-size: 1325px 600px;
+      background-repeat: no-repeat;
+      height: 600px;
+      width:1300px; 
+      padding:18px;
+    }
+#text
+    {
+     font-size:35px;
+     font-weight:700px;
+     color:#C02425 ;
+     margin-left:360px;
+     margin-top:55px;
+     text-transform:uppercase;
+    } 
+#text1
+    {
+    font-size:19px;
+    font-weight:700px;
+    color:#145A32;
+    margin-left:30px;
+    font-family:cursive;
+    } 
+#div3
+    {
+    margin-left:30px;
+    color:#F0CB35  ;
+    }
+#div4
+    {
+    margin-left:530px;
+    margin-top:-210px;
+    color:#922B21  ;
+    }
+#li 
+{
+  display: inline;
+  margin: 21px;
+  color: black;
+
+}
+a
+ {
+  color:#5691c8 ;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Tahoma;
+  margin-right:50px;
+  border:2px solid transparent;
+  padding :1px;
+  transition:0.3s;
+  }
+a:hover
+  {
+  background:white;
+  border:2px solid #fff;
+  }
+
+</style>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const rootElement = document.getElementById("app");
+      const Element1=()=>
+       <div id="div1"> 
+       <div id="navbar">
+       <div id="a">
+       <ul>
+           <li id="li"><a href="index1.html"><b>Home</b></a></li>
+           <li id="li"><a href="About.html"><b>About</b></a></li>
+           <li id="li"><a href="Education.html"><b>Education</b></a></li>
+           <li id="li"><a href="Skills.html"><b>Skills</b></a></li>
+           <li id="li"><a href="Contacts.html"><b>Contacts</b></a></li>
+       </ul>
+       </div> 
+       </div>
+       <div id="div2">
+         <h1 id="text">ABOUT ME</h1>
+         </div>
+       <div id="div3">
+         <h2>Name:k.sowndarya</h2>
+         <h2>DOB:01-02-1999</h2>
+         <h2>Personal traits:Smart worker</h2>
+         <h2>Place:villupuram</h2>
+         <h2>Language Known:Tamil and English </h2>
+       </div>
+       
+    </div>;
+     const Profile=()=>{return(
+     <div><Element1/>
+     </div>
+     );};
+      ReactDOM.render(<Profile/>, rootElement);
+</script>
+</body>
+</html>
