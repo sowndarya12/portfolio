@@ -9,29 +9,34 @@
 </head>
 <style>
    #main
-    {
- background-image:url('https://st4.depositphotos.com/4304307/20304/i/1600/depositphotos_203049960-stock-photo-office-desktop-modern-laptop-blue.jpg')
-
-}
+   {
+    background-image:url("https://st4.depositphotos.com/4304307/20304/i/1600/depositphotos_203049960-stock-photo-office-desktop-modern-laptop-blue.jpg");
+    position: fixed;
+    padding:18px;
+    height: 600px;
+    width:1300px; 
+    }
    #navbar
     {
-   text-align:left;
+   text-align:center;
    padding:20px;
-   padding-left:350px;
     }
    a
    {
-    color:black;
+    color:#273746 ;
     text-decoration:none;
     font-size:25px;
     font-family:Tahoma;
-    margin-right:180px;
+    margin-right:480px;
     border:2px solid transparent;
-    padding 10px;
+    padding:15px;
     transition:0.3s;
-    padding-top:350px;
    }
-   
+   a:hover
+   {
+   background:white;
+   border:2px solid #fff;
+   }
    #img
    {
    border-radius:50%             
@@ -40,25 +45,27 @@
    {
    cursor:pointer;
    font-size:50px;
-   color:black;
+   color:#273746 ;
    font-family:Algerian;
-   padding-top:80px;
-   padding-right:350px;
+   margin-top:50px;
+   padding-right:450px;
+   
    }
    #text1
   {
   cursor:default;
   font-size:30px;
-  color:black;
+  color:#273746 ;
   font-family:Harlow Solid;
   margin-top:-40px;
-  padding-right:350px;
-  padding-top:20px;
+  padding-right:450px;
+  padding-top:30px;
+ 
   }
   #li 
   {
   display: position;
-  padding:10px;
+  padding:15px;
   }
 ul {
   list-style-type: none;
@@ -70,20 +77,19 @@ ul {
     <script type="text/babel">
     const rootElement = document.getElementById("app");
       const Element1=()=>
-       <div id="main" style={{backgroundColor:"black",height:"600px",width:"1300px",marginLeft:"50px`",textAlign:"center",margin:"auto"}}>
-          <div id="img">
-          
-          <h1 id="text">K.Sowndarya</h1>
+       <div id="main" style={{backgroundColor:"black",height:"650px",width:"1330px",marginLeft:"50px`",textAlign:"center",margin:"auto"}}>
+         <div id="img">
+          <h1 id="text">K.SOWNDARYA</h1>
           <h3 id="text1">Software Engineer</h3>
           </div>
-         <div id="navbar">
+          <div id="navbar">
           <div id="a">
        <ul>
-           <li id="li"><a href="index1.html">Home</a></li>
-           <li id="li"><a href="About.html">About</a></li>
-           <li id="li"><a href="Education.html">Education</a></li>
-           <li id="li"><a href="Skills.html">Skills</a></li>
-           <li id="li"><a href="Contacts.html">Contacts</a></li>
+           <li id="li"><a href="index.html"><b>Home</b></a></li>
+           <li id="li"><a href="About.html"><b>About</b></a></li>
+           <li id="li"><a href="Education.html"><b>Education</b></a></li>
+           <li id="li"><a href="Skills.html"><b>Skills</b></a></li>
+           <li id="li"><a href="Contacts.html"><b>Contacts</b></a></li>
       </ul>
           </div> 
           </div>
