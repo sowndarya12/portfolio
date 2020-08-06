@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>portfolio</title>
+    <meta charset="UTF-8" />
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<style>
+#div1
+    {
+      background-image:url("https://www.trainingjournal.com/sites/www.trainingjournal.com/files/styles/original_-_local_copy/entityshare/31992%3Fitok%3D-s0AjeAO");
+      background-size: 1335px 700px;
+      background-repeat: no-repeat;
+      height: 600px;
+      width:1300px; 
+      padding:18px;
+    }
+ #div2
+    {
+    margin-top:100px;
+    margin-left:700px;
+    color:white ;
+    } 
+#li {
+  display: inline;
+  margin: 21px;
+  color: black;
+
+}
+
+a
+  {
+  color:#F4D03F;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Tahoma;
+  margin-right:50px;
+  border:2px solid transparent;
+  padding :1px;
+  transition:0.3s;
+  }
+a:hover
+  {
+  background:black;
+  border:2px solid #fff;
+  }
+      
+</style>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const rootElement = document.getElementById("app");
+      const Element1=()=>
+      <div id="div1"> 
+      <div id="a">
+       <ul>
+         <li id="li"><a href="index1.html"><b>Home</b></a></li>
+           <li id="li"><a href="About.html"><b>About</b></a></li>
+           <li id="li"><a href="Education.html"><b>Education</b></a></li>
+           <li id="li"><a href="Achievements.html"><b>Achievements</b></a></li>
+           <li id="li"><a href="Skills.html"><b>Skills</b></a></li>
+           <li id="li"><a href="Contacts.html"><b>Contacts</b></a></li>
+       </ul>
+      </div> 
+      <div id="div2">
+       <h1 style={{color:"#F5DEB3",fontSize:"35px"}}>TECHNICAL SKILLS</h1>
+       <h2 style={{fontSize:"35px"}}> 1.JavaScript</h2>
+       <h2 style={{fontSize:"35px"}}> 2.HTML & CSS</h2>
+       <h2 style={{fontSize:"35px"}}> 3.python</h2>
+       <h2 style={{fontSize:"35px"}}> 4.react js</h2>
+      </div>
+      </div>;
+     ReactDOM.render(<Element1/>, rootElement);
+</script>
+</body>
+</html>
