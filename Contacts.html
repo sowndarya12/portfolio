@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>portfolio</title>
+    <meta charset="UTF-8" />
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<style>
+#div1
+    {
+     background-image:url("https://previews.123rf.com/images/279photo/279photo1910/279photo191000087/130862753-customer-support-company-office-with-contact-us-sign-and-coffee-on-dark-desk-background-top-view-moc.jpg");
+      background-size: 1335px 700px;
+      background-repeat: no-repeat;
+      height: 600px;
+      width:1300px; 
+      padding:18px;
+    } 
+#li {
+  display: inline;
+  margin: 21px;
+  color: black;
+
+}
+
+a
+  {
+  color:white;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Tahoma;
+  margin-right:50px;
+  border:2px solid transparent;
+  padding :1px;
+  transition:0.3s;
+  }
+a:hover
+  {
+  background:yellow;
+  border:2px solid #fff;
+  }
+      
+</style>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const rootElement = document.getElementById("app");
+      const Element1=()=>
+      <div id="div1"> 
+      <div id="a">
+      <ul>
+         <li id="li"><a href="index.html"><b>Home</b></a></li>
+           <li id="li"><a href="About.html"><b>About</b></a></li>
+           <li id="li"><a href="Education.html"><b>Education</b></a></li>
+           <li id="li"><a href="Skills.html"><b>Skills</b></a></li>
+           <li id="li"><a href="Contacts.html"><b>Contacts</b></a></li>
+       </ul>
+      </div> 
+      <h1 style={{color:"white",fontSize:"35px",marginLeft:"100px",marginTop:"50px"}}>CONTACT</h1>
+      <h2 style={{color:"white",fontSize:"25px",marginLeft:"-9px",marginTop:"50px"}}>Address:NO:31,valavanur,villupuram</h2>
+      <h2 style={{color:"white",fontSize:"25px",marginLeft:"-9px",marginTop:"50px"}}>Email id:sowndarya1219@gmail.com</h2>
+      <h2 style={{color:"white",fontSize:"25px",marginLeft:"-9px",marginTop:"50px"}}>Github link:https://github.com/sowndarya1299</h2>
+      <h2 style={{color:"white",fontSize:"25px",marginLeft:"-9px",marginTop:"50px"}}>Phone mumber:9597340106</h2>
+       </div>;
+ReactDOM.render(<Element1/>, rootElement);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
